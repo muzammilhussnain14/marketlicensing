@@ -1,0 +1,5 @@
+Android Market offers a licensing service that lets you enforce licensing policies for paid applications that you publish through Android Market. With Android Market Licensing, your applications can query Android Market at run time to obtain their licensing status for the current user, then allow or disallow further use as appropriate.
+
+To help you add licensing to your application, the Android SDK provides library sources that you can include in your application project. The License Verification Library (LVL) handles all of the licensing-related communication with the Android Market client and the licensing service. With the LVL integrated, your application can determine its licensing status for the current user by simply calling a library checker method and implementing a callback that receives the status.
+
+This project serves as the issue tracker for the LVL. Developers who wish to integrate the LVL should download the "Market Licensing" package from the Android SDK manager.
